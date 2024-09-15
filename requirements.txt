@@ -1,1 +1,7 @@
 git+https://github.com/just-ai/mlp-python-sdk.git@release
+
+requests~=2.32.3
+pydantic~=1.10.13
+tqdm~=4.66.5
+scikit-learn~=1.5.2
+razdel~=0.5.0

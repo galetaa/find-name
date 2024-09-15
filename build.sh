@@ -4,7 +4,7 @@ ROOT=$(dirname $0)
 cd "$ROOT"
 
 
-SERVICE_NAME=mlp-hello-world-service
+SERVICE_NAME=mlp-ner-service
 BUILD_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 BRANCH_NAME_LOWER=`echo $BUILD_BRANCH | tr '[:upper:]' '[:lower:]'`
 
